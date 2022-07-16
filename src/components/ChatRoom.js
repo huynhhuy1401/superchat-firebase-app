@@ -26,7 +26,6 @@ export const ChatRoom = () => {
     };
 
     addNewMessage(newData);
-    console.log("hi");
     setFormValue("");
     dummy.current.scrollIntoView({ behavior: "smooth" });
   };
